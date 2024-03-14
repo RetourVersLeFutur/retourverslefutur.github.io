@@ -1,0 +1,885 @@
+body {
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;    
+	background-image: url("images/bg.png");
+	background-repeat: repeat x y; 
+	background-color: #000;
+	text-align: justify;
+}
+
+td.top {
+    vertical-align: text-top;
+    width: 50%;
+} 
+
+@media screen and (max-width: 992px) {
+    td.top{
+    width: 100%;
+    }
+}
+
+.arrondi {
+    border : rgb(115, 115, 255) solid 3px;
+    border-radius : 10px;  
+}
+
+/* L'en-téte */
+
+.nav-item {
+    font-size : 22px;
+    letter-spacing : 0.02em;
+}
+
+.navbar-brand {
+    font-size : 30px;
+    letter-spacing : 0.02em;
+}
+
+#en_tete {
+	width: 1000px;
+	height: 200px;
+	background-image: url("images/banniere2.jpg");
+	background-repeat: no-repeat;
+	margin-bottom: 5px;
+	border: 1px solid black;
+}
+
+/* Le menu */
+/* Je sélectionne mes <li> par les sélecteurs (<li> est contenu par le <ul>), inutile de lui rajouter une class */
+
+ul#menu_horizontal { 
+
+	width : 1000px; 
+
+	height : 30px;
+
+	margin : 5px 0 5px 0;
+
+	padding : 0;
+
+	background-color : #DE2929;
+
+	border : 1px solid black;
+
+	list-style-type : none; 
+
+}
+
+ 
+
+ul#menu_horizontal li {
+
+	padding : 0 0.5em;  
+
+	line-height : 30px;
+
+}
+
+ 
+
+ul#menu_horizontal li.bouton_gauche {
+
+	float : left;
+
+	border-right : 1px solid black; 
+
+}
+
+ 
+
+ul#menu_horizontal li.bouton_droite {
+
+	float : right;
+
+}
+
+ 
+
+ul#menu_horizontal a {
+
+	color : white;
+
+	text-decoration : none;
+
+	padding : 0 0.5em; 
+
+	font :  0.8em "Trebuchet MS";
+
+}
+
+ 
+
+ul#menu_horizontal a:hover { 
+
+	text-decoration : underline; 
+
+	color : black;
+
+}
+
+/* Le menu */
+
+/* Je séléctionne mes <li> par les sélecteurs (<li> est contenu par le <ul>), inutile de lui rajouter une class */
+
+ul#menu_connexion { 
+
+	width : 1000px; 
+
+	height : 30px;
+
+	margin : 5px 0 5px 0;
+
+	padding : 0;
+
+	background-color : #DE2929;
+
+	border : 1px solid black;
+
+	list-style-type : none; 
+
+	color: white;
+
+}
+
+ 
+
+ul#menu_connexion li {
+
+	padding : 0 0.5em;  
+
+	line-height : 30px;
+
+}
+
+ 
+
+ul#menu_connexion li.bouton_gauche {
+
+	float : left;
+
+}
+
+ 
+
+ul#menu_connexion li.bouton_droite {
+
+	float : right;
+
+	text-decoration: blink;
+
+	border-left: 1px solid black;
+
+}
+
+ 
+
+ul#menu_connexion a {
+
+	color : white;
+
+	text-decoration : none;
+
+	padding : 0 0.5em; 
+
+	font :  0.8em "Trebuchet MS";
+
+}
+
+ 
+
+ul#menu_connexion a:hover { 
+
+	text-decoration : underline; 
+
+	color: black;
+
+}
+
+ 
+
+ul#menu_connexion a img { 
+
+	border : none;
+
+	padding :  0 0.3em;
+
+}
+
+
+
+ul#menu_connexion li.bouton_droiteDec {
+
+	float : right;
+
+	border-left: 1px solid black;
+
+} 
+
+
+
+#connexion
+
+{
+
+	color: #a00;
+
+}
+
+
+
+#corps h2
+
+{
+
+	color: white;
+
+	background-color: #DE2929;
+
+	text-align: center;
+
+	border: 1px solide black;
+
+	margin-top: 0pt;
+
+}
+
+
+
+#corps .identite
+
+{
+
+	border-color: #DE2929;
+
+}
+
+/* Le corps de la page */
+
+#corps
+{
+	width: 75%;
+	margin:auto;
+	margin-bottom: 5px;
+	padding: 5px;
+	color: #000;
+	background-color: #fff;
+	border: 1px solid black;
+	min-height:500px;
+	box-shadow : 7px 10px 7px #59717e;
+}
+
+#corps h1
+{
+	color: #c00;
+	text-align: center;
+	font-family: Arial, "Arial Black", "Times New Roman", Times, serif;
+}
+
+#corps h2
+{
+	height: 40px;
+	background-image: url("images/titre.png");
+	background-repeat: no-repeat;
+	padding-left: 30px;
+	color: #B3B3B3;
+	text-align: left;
+}
+
+#corps a {
+	color: #a00;
+}
+
+#corps a:hover {
+	color: red;
+}
+
+#corps .identite
+{
+	border-color: #DE2929;
+}
+
+#membres{
+	border:1px solid;
+	border-color:black;
+	width:90%;
+	border-collapse:collapse;
+}
+
+#titres{
+	font-size:16pt;
+	background-color:#DE2929;
+	color:white;
+}
+
+.donnee{
+	border:1px black solid;
+	border-collapse:collapse;
+	text-align:center;
+	height:30pt;
+}
+
+table#video {
+	margin:auto;
+	text-align: left;
+}
+
+td#films {
+	width:26%;
+}
+
+input[type="submit"]
+{
+	background-color: #a00;
+	color: white;
+	border: 1px outset black;
+	font-weight: bold;
+}
+
+/* Le pied de page (qui se trouve tout en bas, en général pour les copyrights) */
+
+#pied_de_page
+{
+	padding:0;
+	text-align: center;
+	color: #000;
+	background-color: #fff; 
+	border: 1px solid black;
+}
+
+#pied_de_page a
+{
+	color: #a00;
+}
+
+#pied_de_page a:hover
+
+{
+	color: red;
+}
+
+img {
+
+	border:none;
+
+}
+
+img#film {
+	float:left;
+	margin: 0 6px 6px 0;
+}
+
+span#champ {
+	font-weight:bold;
+}
+
+.float 
+{
+	display: block;
+	width: 200px;
+	float: left;
+	text-align: left;
+}
+
+
+
+/* ancien code */
+
+h1 {
+    color : #11D8E8;
+    font-size : 22pt;
+    text-align : center;
+}
+
+#index {
+    background-color : rgb(24, 24, 58);
+    color : purple;
+    border : red solid 1px;
+    margin : auto;
+    width : 75%;
+    padding-left : 10px;
+    padding-right : 10px;
+    box-shadow : 10px 10px 7px #59717e;
+    float : right;
+    position : relative;
+    border-radius : 10px;
+    font-size : 26px;
+    font-family : 'Raleway', Arial, sans-serif;
+    overflow : hidden;
+}
+
+#menu {
+    background : rgb(106, 101, 129);
+    border : red solid 1px;
+    margin : 0 0 7px;
+    height : auto;
+    font-size : 26px;
+    font-family : 'Raleway', Arial, sans-serif;
+    max-width : 100%;
+    overflow : hidden;
+}
+
+#header {
+    margin: auto;
+	width: 75%;
+    background : #525c74;
+	border : red solid 1px;
+    padding : 20px 20px;
+    overflow : hidden;
+    max-height : 350px;
+    margin-top: 5px;
+    padding-bottom : 20px;
+	margin-bottom: 5px;
+	box-shadow : 7px 10px 7px #59717e;
+    position : relative;
+    border-radius : 10px;
+}
+
+#content {
+	margin: auto;
+    width : 75%;
+    color : white;
+    background-color : #525c74;
+    text-align : left;
+    padding-left : 10px;
+    padding-right : 10px;
+    box-shadow : 10px 10px 7px #59717e;
+    position : relative;
+    border-radius : 10px;
+    font-size : 24px;
+    font-family : Segoe UI Light;
+	letter-spacing : 0.02em;
+	min-height:500px;
+    margin-bottom: 5px;
+}
+
+#global {
+
+	max-width: 75%;
+
+	margin : auto;
+
+    text-align : center;
+
+    max-height : 100%;
+
+    position : relative;
+
+}
+
+.page {
+
+	position : relative;
+
+	margin : auto;
+
+    max-width : 100%;
+
+    max-height : 100%;
+
+    overflow : hidden;
+
+    background-color : rgb(202, 181, 181);
+
+}
+
+#gauche {
+
+    width : 21%;
+
+    background : rgb(219, 40, 40);
+
+    color : white;
+
+    float : left;
+
+    text-align : left;
+
+    padding-left : 10px;
+
+    font-size : 20px;
+
+    font-family : Segoe UI Light;
+
+    padding-bottom : 9999999px;
+
+    margin-bottom : -9999999px;
+
+}
+
+a[title="guitariste"] {
+
+    color : red;
+
+}
+
+.photo_identite {
+
+    position : relative;
+
+    float : right;
+
+    padding-right : 10px;
+
+}
+
+@media all and (max-width: 1600px) {
+
+    td#explications {
+
+        width : 98%;
+
+    }
+
+    td#films {
+
+        width : 98%;
+
+    }
+
+    #gauche {
+
+        display : none;
+
+    }
+
+    #droite {
+
+        display : none;
+    }
+
+    #index {
+        float : left;
+        width : 97%;
+        max-width : 1400px;
+    }
+
+    .musique tr {
+        display : flex;
+        flex-direction : row;
+        flex-wrap : wrap;
+    }
+
+    .white {
+        width : 100%;
+    }
+}
+
+@media all and (max-width: 992px) {
+    #content {
+        width : 98%;
+    }
+
+    #corps {
+        width : 98%;
+    }
+
+    #header {
+        width : 98%;
+    }
+
+    #para1 {
+        width : 35%;
+        float : left;
+    }
+
+    #para2 {
+        width : 50%;
+        float : right;
+    }
+}
+
+#droite {
+    background-image : url("spirale.jpg");
+    float : right;
+    text-align : left;
+    width : 260px;
+    padding-bottom : 9999999px;
+    margin-bottom : -9999999px;
+    padding-left : 10px;
+    font-size : 20px;
+}
+
+.accueil {
+    width : 65%;
+    text-align : center;
+}
+
+.realisations {
+    width : 100%;
+}
+
+.programme {
+    width : 75%;
+    text-align : center;
+}
+
+.musique {
+    width : 90%;
+    border : yellow;
+}
+
+.photos {
+    width : 80%;
+}
+
+.video-conteneur {
+    position:relative;
+    padding-bottom:56.25%;
+    height:0;
+    overflow:hidden;
+    }
+
+.video-conteneur iframe,
+.video-conteneur object,
+.video-conteneur embed {
+position:absolute;
+top:0;
+left:0;
+width:50%;
+height:50%;
+}
+
+@media all and (max-width: 1200px) {
+.video-conteneur {
+    position:relative;
+    padding-bottom:56.25%;
+    height:0;
+    overflow:hidden;
+    }
+
+.video-conteneur iframe,
+.video-conteneur object,
+.video-conteneur embed {
+position:absolute;
+top:0;
+left:0;
+width:80%;
+height:80%;  
+}
+}
+
+.separation {
+    color : white;
+    border : 0;
+    border-bottom : 1px dashed #ccc;
+    background : #999;
+    margin : -0.05em 0;
+}
+
+h2 {
+    text-align : center;
+    color : #33caff;
+    font-size : 24px;
+}
+
+h3, h5 {
+    text-align : center;
+    color : #33caff;
+    font-size : 22px;
+}
+
+#para1 {
+    width : 40%;
+    float : left;
+}
+
+#para2 {
+    width : 53%;
+    float : right;
+}
+
+a:link {
+    font-size : 100%;
+    color : #000000;
+    font-family : 'Raleway', Arial, sans-serif;
+    background-color : transparent;
+}
+
+a:visited {
+    font-size : 100%;
+    color : rgb(31, 128, 219);
+    font-family : 'Raleway', Arial, sans-serif;
+    background-color : transparent;
+}
+
+a:hover {
+    font-size : 100%;
+    color : rgb(185, 184, 192);
+    font-family : 'Raleway', Arial, sans-serif;
+    background-color : transparent;
+    text-decoration : underline;
+}
+
+td {
+    color : purple;
+    padding-left : 10px;
+    font-size : 19px;
+}
+
+.left {
+    width : 50%;
+    vertical-align : top;
+    color : black;
+    font-family : Segoe UI Light;
+    font-size : 24px;
+    letter-spacing : 0.02em;
+}
+
+.right {
+    width : 50%;
+    vertical-align : top;
+    color : black;
+    font-family : Segoe UI Light;
+    font-size : 24px;
+    letter-spacing : 0.02em;
+}
+
+@media screen and (max-width: 600px) {
+    td.right {
+      display: none;
+    }
+} 
+
+.cv {
+    background-color : rgb(255, 255, 255);
+    width : 100%;
+    font-family : Segoe UI Light;
+    font-size : 24px;
+    letter-spacing : 0.02em;
+}
+
+table {
+    width : 90%;
+    margin-left : auto;
+    margin-right : auto;
+    background-color : white;
+}
+
+.silver {
+    background-color : silver;
+    padding : 20px 20px;
+}
+
+.white {
+    background-color : white;
+}
+
+.musique td {
+    padding : 10px;
+    font-size : 24px;
+    font-family : 'Raleway', Arial, sans-serif;
+
+}
+
+.playlist td {
+    padding : 10px;
+    font-size : 24px;
+    font-family : 'Raleway', Arial, sans-serif;
+}
+
+#mentions a {
+    padding : 20px;
+    z-index : 1;
+    position : absolute;
+    font-size : 20px;
+    font-family : Segoe UI Light;
+    color : #111314;
+}
+
+#footer {
+    display:block;
+    text-align: center !important;
+    height: auto;
+    }
+
+.card {
+    color : black !important;
+    }
+
+h5 {
+    margin-top: 0px;
+    }
+
+.home {
+    color : black;
+    }
+
+/* RESET CSS */
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav > ul li:hover .sous{
+    display: block;
+}
+
+.sous li{
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+#IDfilm {
+    position : relative;
+    float : left;
+    padding-right : 50px;
+}
+
+.video-responsive { 
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+      }
+
+      /* Then style the iframe to fit in the container div with full height and width */
+
+.video-responsive iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+.photos-films {
+        width : 60%;
+    }
+
+    h1  {
+        animation-duration: .8s;
+        animation-name: clignoter;
+        animation-iteration-count: infinite;
+        transition: none;
+        color: purple;
+     }
+
+     @keyframes clignoter {
+       0%   { color:#000000; }
+       40%   {color:#F1A200; }
+       100% { opacity:#000000; }
+     }
