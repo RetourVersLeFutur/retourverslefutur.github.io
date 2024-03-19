@@ -13,9 +13,10 @@
     <title><"RVLF"></title>
     <link rel="stylesheet" href="bootstrap.css" type="text/css">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-tomorrow.min.css" integrity="sha512-kSwGoyIkfz4+hMo5jkJngSByil9jxJPKbweYec/UgS+S1EgE45qm4Gea7Ks2oxQ7qiYyyZRn66A9df2lMtjIsw==" crossorigin="anonymous" referrerpolicy="no-referrer" />        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js" integrity="sha512-UOoJElONeUNzQbbKQbjldDf9MwOHqxNz49NNJJ1d90yp+X9edsHyJoAs6O4K19CZGaIdjI5ohK+O2y5lBTW6uQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-c.min.js" integrity="sha512-EWIJI7uQnA8ClViH2dvhYsNA7PHGSwSg03FAfulqpsFiTPHfhdQIvhkg/l3YpuXOXRF2Dk0NYKIl5zemrl1fmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-tomorrow.min.css" integrity="sha512-kSwGoyIkfz4+hMo5jkJngSByil9jxJPKbweYec/UgS+S1EgE45qm4Gea7Ks2oxQ7qiYyyZRn66A9df2lMtjIsw==" crossorigin="anonymous" referrerpolicy="no-referrer" />        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/prism.min.js" integrity="sha512-UOoJElONeUNzQbbKQbjldDf9MwOHqxNz49NNJJ1d90yp+X9edsHyJoAs6O4K19CZGaIdjI5ohK+O2y5lBTW6uQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/components/prism-c.min.js" integrity="sha512-EWIJI7uQnA8ClViH2dvhYsNA7PHGSwSg03FAfulqpsFiTPHfhdQIvhkg/l3YpuXOXRF2Dk0NYKIl5zemrl1fmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
    <body>
 
@@ -65,7 +66,6 @@ MENU <span class="navbar-toggler-icon"></span>
  	<!--Nous sommes dans le contenu -->
 	 <div id="content">
 <br>
-<!--		 
 <div class="row">
 <div class="col-md-12">
 
@@ -74,14 +74,11 @@ MENU <span class="navbar-toggler-icon"></span>
 	<td>
 	<a href="./contact.html">
 <h1>
-		 -->
 	<b><U>"Nom de Zeus!"</U> !<br>DOCUMENTATION</b>
 </h1></a>
 <br>	
-	<p>
-<B>La doc de Docteur EMMET BROWN :</B><br>
-<h2>
-	<!--<a href="./img/moodboard/moodboard.jpg" target="_blank"><img class="musique" src="moodboard.jpg" alt="Retour_vers_le_futur"></a>-->
+<p>
+  <B>La doc de Docteur EMMET BROWN :</B></p>
 
 	<!-- DEBUT - MENU SOMMAIRE -->
 <ul>
@@ -94,7 +91,7 @@ MENU <span class="navbar-toggler-icon"></span>
 </ul>
 <!-- FIN  - MENU SOMMAIRE -->
 
-<hr>
+<hr class="separation">
 
 <!-- DEBUT - CONTENU INTRODUCTION -->
 <h3>Objectif du Projet</h3>
@@ -109,7 +106,7 @@ L'objectif principal est de permettre aux participants de concevoir et de dével
 </ul>
 <!-- FIN - CONTENU INTRODUCTION -->
 
-<hr>
+<hr class="separation">
 
 <!-- DEBUT - PRESENTATION DU ROBOT -->
 <h3>Composants Matériels Utilisés</h3>
@@ -123,11 +120,13 @@ L'objectif principal est de permettre aux participants de concevoir et de dével
 
 <h3>Schémas ou Images de la Disposition des Composants</h3>
 <p>Les schémas ou images de la disposition des composants sont les suivants,</p>
-<img height="455px" width="940px" src="https://github.com/RetourVersLeFutur/documentation/assets/85597175/04783eca-ce7a-4364-b0eb-6ef43f73986a"/>
+<img class="musique" src="https://github.com/RetourVersLeFutur/documentation/assets/85597175/04783eca-ce7a-4364-b0eb-6ef43f73986a"/>
+<br>
 <!-- FIN - PRESENTATION DU ROBOT -->
 
-<hr>
-<pre class="musique">
+<hr class="separation"><br>
+<table class="musique">
+<pre>
             <code class="lang-c">#include 
 #include 
 // Définition des broches RX et TX pour la communication avec le module Bluetooth HC-06
@@ -212,13 +211,11 @@ void loop()
     delay(15);
 } 
             </code>
-        </pre>
-</h2>
+          </pre>
+</table>
 </td>	 
 </tr>
 </table>
-</table>
-
 <table class="musique">
 <tr>			
 		   <td class ="top">
@@ -251,6 +248,7 @@ Nouvelle version mise à jour mars 2024<BR>
 
 </body>
 </html>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
