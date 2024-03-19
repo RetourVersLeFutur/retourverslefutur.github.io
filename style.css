@@ -453,11 +453,11 @@ h1 {
     letter-spacing : 0.02em;
     min-height:500px;
     margin-bottom: 5px;
+    border : yellow solid 2px;
 }
 
 .bordure-animation
 {
-  border : yellow solid 2px;
   animation: border-slide 2.5s linear infinite;
 }
 @keyframes border-slide 
