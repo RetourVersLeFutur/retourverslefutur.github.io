@@ -423,7 +423,7 @@ h1 {
     margin: auto;
 	width: 75%;
     background : #525c74;
-	border : red solid 1px;
+	border : yellow solid 2px;
     padding : 20px 20px;
     overflow : hidden;
     max-height : 350px;
@@ -440,6 +440,7 @@ h1 {
     width : 75%;
     color : white;
     background-color : #525c74;
+    border : yellow solid 2px;
     text-align : left;
     padding-left : 10px;
     padding-right : 10px;
@@ -616,7 +617,7 @@ a[title="guitariste"] {
 
 .musique {
     width : 90%;
-    border : yellow;
+    border : yellow solid 2px;
 }
 
 .photos {
@@ -883,3 +884,5 @@ nav > ul li:hover .sous{
        40%   {color:#F1A200; }
        100% { opacity:#000000; }
      }
+
+      
