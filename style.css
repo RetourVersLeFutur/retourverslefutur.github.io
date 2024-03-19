@@ -442,7 +442,6 @@ h1 {
     width : 75%;
     color : white;
     background-color : #525c74;
-    border : yellow solid 2px;
     text-align : left;
     padding-left : 10px;
     padding-right : 10px;
@@ -454,7 +453,12 @@ h1 {
     letter-spacing : 0.02em;
     min-height:500px;
     margin-bottom: 5px;
-    animation: border-slide 2.5s linear infinite;
+}
+
+.bordure-animation
+{
+  border : yellow solid 2px;
+  animation: border-slide 2.5s linear infinite;
 }
 @keyframes border-slide 
 {
